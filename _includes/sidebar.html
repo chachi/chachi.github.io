@@ -1,7 +1,9 @@
+<h2><a href="/">{{site.title}}</a></h2>
+
 <h4>Recent Posts</h4>
 
-{% for post in paginator.posts %}
-<p class="author">
-  <span class="date">{{ post.date }}</span>
-</p>
+<ul>
+{% for post in site.related_posts limit:4 %}
+  <li><a href="{{post.url}}">{{ post.title }}</a></li>
 {% endfor %}
+<ul>
