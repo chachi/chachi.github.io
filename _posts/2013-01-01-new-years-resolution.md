@@ -3,9 +3,6 @@ layout: post
 title: New Years Resolutions
 ---
 
-New Years Resolutions
-=====================
-
 I haven't heard much about "Resolutions" this year from friends or family, or even in the media. Perhaps after years of failed ideas, people have toned down their expectations. Ever optimistic, though, I've decided to make a few resolutions of my own. I still think it's a good excuse to do some life-refactoring and try to make some concrete improvements.
 
 And without further ado, here are my 2013 New Year's Resolutions:

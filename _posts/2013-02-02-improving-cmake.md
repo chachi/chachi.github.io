@@ -3,9 +3,6 @@ layout: post
 title: Improving CMake
 ---
 
-Improving CMake
-===============
-
 When it comes to C and C++ build systems, I strongly prefer [CMake][cmake]. Its combination of clean syntax, C/C++ built-in support, and dependency management is hard to beat in the C++ world. That said, I think CMake could benefit from some improvements to its core functions. In this post I will describe a few bits of CMake functionality I use in my projects to make life easier.
 
 [cmake]: http://www.cmake.org
