@@ -1,3 +1,8 @@
+---
+layout: post
+title: New Years Resolutions
+---
+
 New Years Resolutions
 =====================
 

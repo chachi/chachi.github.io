@@ -1,9 +1,14 @@
+---
+layout: post
+title: A Year of Crossfit
+---
+
 A Year of Crossfit
 ==================
 
 This post was going to be about my experience participating in the [Crossfit Games][games], but I thought it would be timely, given my impending departure from Boston, to instead share my thoughts on Crossfit overall. I'll be reluctantly leaving [Crossfit Boston][CFB] in a few weeks after about 14 months as a member, and in this post I'll share my thoughts on the Crossfit community and fitness program. **Note:** These are only my opinions and only reflect my experience at Crossfit Boston and a few other boxes around the country.
 
-![](images/keep-calm-and-crossfit.png)
+![](/images/keep-calm-and-crossfit.png)
 
 Crossfit Community
 ------------------
@@ -12,7 +17,7 @@ The best part of Crossfit for me is, hands down, the community aspect. The Cross
 
 The biggest motivating factor for me in sticking with Crossfit was the group classes. I lifted everyday in high school but lost all drive in college. The difference? I was on the football team in high school and the camaraderie kept me in the weight room. I derive a similar feeling from the Crossfit group classes. Even though everyone was at a different stage in their training, everyone encourages each other and it creates a great atmosphere. Add onto that partner workouts that encourage cheering each other on and you have a great recipe for members to really care about their workouts and their peers'. It's what separates Crossfit from the regular "globo gyms" and even from group classes at other places.
 
-![Visiting Real Fitness Sarasota](images/Crossfit_RFS.jpg)
+![Visiting Real Fitness Sarasota](/images/Crossfit_RFS.jpg)
 
 The community extends beyond each box, as well. Crossfit gyms are known for being open to traveling members, either for free or for a small visit fee. The gym near my spring break this year [(Real Fitness Sarasota)][RFS] just asked that we consider buying a (very comfy) T-shirt when we visited. The coaches at the gyms I visited have always been friendly and the members welcoming. It's been great to have a familiar workout when I'm away from home.
 
