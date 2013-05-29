@@ -1,0 +1,7 @@
+<h4>Recent Posts</h4>
+
+{% for post in paginator.posts %}
+<p class="author">
+  <span class="date">{{ post.date }}</span>
+</p>
+{% endfor %}
