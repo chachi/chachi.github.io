@@ -1,6 +1,38 @@
 pygments: true
 paginate: 5
-title: Occasionally Things are Considered
-name: Occasionally Things are Considered
-description: Jack's musings on the world
+title: "Occasionally Things are Considered"
+name: "Occasionally Things are Considered"
+description: "Jack's musings on the world"
 url: http://chachi.github.io
+
+allNavbarLinks: [home, context, github, facebook, twitter, linkedin]
+navbarLinks:
+  home:
+    idName: ""
+    text: "Home"
+    path: "/"
+
+  context:
+    idName: "context"
+    text: "Context"
+    path: "/context"
+
+  github:
+    idName: "github"
+    text: "@Github"
+    path: "https://www.github.com/chachi"
+
+  facebook:
+    idName: "facebook"
+    text: "@Facebook"
+    path: "https://www.facebook.com/jack.morrison1"
+
+  twitter:
+    idName: "twitter"
+    text: "@Twitter"
+    path: "https://twitter.com/jackmorrison"
+
+  linkedin:
+    idName: "linkedin"
+    text: "@LinkedIn"
+    path: "http://www.linkedin.com/in/morrisonjack/"

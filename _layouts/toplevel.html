@@ -11,9 +11,6 @@
     <title>{{page.title}}</title>
   </head>
   <body>
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-
     <div class="row-fluid">
       <div class="offset2 span8">
         <img src="/images/header.jpg" />
@@ -23,37 +20,30 @@
             <div class="navbar">
               <div class="navbar-inner">
                 <ul class="nav">
-                  <li id="homeNav"><a href="/">
-                      Home
+                  <li class="divider-vertical">
+                    {% for link in site.allNavbarLinks %}
+                    {% assign navLink = site.navbarLinks | map: link %}
+                  <li class="pageKey" id="{{navLink | map: 'idName'}}Nav">
+                    <a href="{{navLink | map: 'path'}}">
+                      {{navLink | map: 'text'}}
                   </a></li>
                   <li class="divider-vertical">
-                  <!-- <li id="contextNav"><a href="/context.html"> -->
-                  <!--     Context -->
-                  <!-- </a></li> -->
-                  <!-- <li class="divider-vertical"> -->
-                  <li><a href="https://www.github.com/chachi">
-                      @Github
-                  </a></li>
-                  <li class="divider-vertical">
-                  <li><a href="https://www.facebook.com/jack.morrison1">
-                      @Facebook
-                  </a></li>
-                  <li class="divider-vertical">
-                  <li><a href="https://twitter.com/jackmorrison">
-                      @Twitter
-                  </a></li>
-                  <li class="divider-vertical">
-                  <li><a href="http://www.linkedin.com/in/morrisonjack/">
-                      @LinkedIn
-                  </a></li>
+                    {% endfor %}
                 </ul>
               </div>
             </div>
           </div>
         </div>
-        {% include content.html %}
+        {{ content }}
       </div>
     </div>
     {% include footer.html %}
   </body>
 </html>
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+  $(".pageKey").toggleClass("active", false);
+  $("#" + window.location.pathname.substring(1) + "Nav").toggleClass("active", true);
+</script>
