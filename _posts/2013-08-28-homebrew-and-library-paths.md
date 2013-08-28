@@ -21,7 +21,9 @@ To solve this, I simply added
 export DYLD_LIBRARY_PATH = /usr/local/Cellar/gcc47/4.7.3/gcc/lib
 ```
 
-to my build script. This causes the correct libraries to be found and solves the issue.
+to any script that runs my executables. This causes the correct libraries to be found when I run something built with GCC 4.7 and solves the issue. Unforunately, I can't set the system path to this because other executables depend on using the system library.
+
+**EDIT:** Corrected the last paragraph on when `DYLD_LIBRARY_PATH` is actually set.
 
 [homebrew]: http://brew.sh
 [fink]: http://finkproject.org
