@@ -5,12 +5,17 @@ name: "Occasionally Things are Considered"
 description: "Jack's musings on the world"
 url: http://chachi.github.io
 
-allNavbarLinks: [home, context, github, facebook, twitter, linkedin]
+allNavbarLinks: [home, CV, context, github, facebook, twitter, linkedin]
 navbarLinks:
   home:
     idName: ""
     text: "Home"
     path: "/"
+
+  CV:
+    idName: "CV"
+    text: "Resume/CV"
+    path: "/CV"
 
   context:
     idName: "context"
