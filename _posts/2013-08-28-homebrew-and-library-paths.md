@@ -15,15 +15,18 @@ Here's the error message:
 
 This was baffling and to summarize a few hours of searches, I finally tracked it down to being related to [this recent change][gotcha] to Apple's libstdc++. What was sadly occuring here is that while GCC 4.7 was linked into /usr/local/bin *none of its corresponding system libraries* were linked or copied into /usr/local/lib. This meant that I was **compiling** my software using GCC 4.7, but **linking** against Apple's libstdc++.dylib. This resulted in the confusing mismatch in dynamic string usage.
 
-To solve this, I simply added
+<s>To solve this, I simply added</s>
 
-```bash
+<s>```bash
 export DYLD_LIBRARY_PATH = /usr/local/Cellar/gcc47/4.7.3/gcc/lib
 ```
+</s>
 
-to any script that runs my executables. This causes the correct libraries to be found when I run something built with GCC 4.7 and solves the issue. Unforunately, I can't set the system path to this because other executables depend on using the system library.
+<s>to any script that runs my executables. This causes the correct libraries to be found when I run something built with GCC 4.7 and solves the issue. Unforunately, I can't set the system path to this because other executables depend on using the system library.</s>
 
-**EDIT:** Corrected the last paragraph on when `DYLD_LIBRARY_PATH` is actually set.
+<s>**EDIT:** Corrected the last paragraph on when `DYLD_LIBRARY_PATH` is actually set.</s>
+
+**EDIT:** It turns out the actual fix is to rebuild GCC and pass `--enable-fully-dynamic-string` to `./configure`. This links your executables to the correct libstdc++.dylib and makes the interoperable with the system libraries. Use `brew edit gcc47` to edit the Homebrew formula to add this configure option.
 
 [homebrew]: http://brew.sh
 [fink]: http://finkproject.org
