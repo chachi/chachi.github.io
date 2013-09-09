@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="/css/syntax.css" rel="stylesheet">
+    {% include header.html %}
     <link rel="alternate"
           type="application/rss+xml"
           title="{{ page.title }}"
           href="/feed.xml" />
-    <title>{{page.title}}</title>
   </head>
   <body>
     <div class="row-fluid">
@@ -40,10 +37,3 @@
     {% include footer.html %}
   </body>
 </html>
-<script src="http://code.jquery.com/jquery.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-
-<script type="text/javascript">
-  $(".pageKey").toggleClass("active", false);
-  $("#" + window.location.pathname.substring(1, Math.max(1, window.location.pathname.length-1)) + "Nav").toggleClass("active", true);
-</script>
