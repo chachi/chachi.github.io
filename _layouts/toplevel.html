@@ -8,30 +8,28 @@
           href="/feed.xml" />
   </head>
   <body>
-    <div class="row-fluid">
-      <div class="offset2 span8">
-        <img src="/images/header.jpg" />
-        <div class="page-header">
-          <h1>{{ page.title }}</h1>
-          <div class=".nav-collapse.collapse" >
-            <div class="navbar">
-              <div class="navbar-inner">
-                <ul class="nav">
-                  <li class="divider-vertical">
-                    {% for link in site.allNavbarLinks %}
-                    {% assign navLink = site.navbarLinks | map: link %}
-                  <li class="pageKey" id="{{navLink | map: 'idName'}}Nav">
-                    <a href="{{navLink | map: 'path'}}">
-                      {{navLink | map: 'text'}}
-                  </a></li>
-                  <li class="divider-vertical">
-                    {% endfor %}
-                </ul>
-              </div>
+    <div class="container">
+      <div class="row">
+	<div class="col col-lg-8">
+          <img src="/images/header.jpg" />
+          <div class="page-header">
+            <h1>{{ page.title }}</h1>
+            <div class="navbar navbar-default" role="navigation">
+              <ul class="nav navbar-nav">
+                <li class="divider-vertical">
+                  {% for link in site.allNavbarLinks %}
+                  {% assign navLink = site.navbarLinks | map: link %}
+                <li class="pageKey" id="{{navLink | map: 'idName'}}Nav">
+                  <a href="{{navLink | map: 'path'}}">
+		    {{navLink | map: 'text'}}
+                </a></li>
+                <li class="divider-vertical">
+                  {% endfor %}
+              </ul>
             </div>
           </div>
-        </div>
-        {{ content }}
+          {{ content }}
+	</div>
       </div>
     </div>
     {% include footer.html %}
