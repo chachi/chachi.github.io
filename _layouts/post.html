@@ -8,21 +8,23 @@
   <body>
     <div class="container">
       <div class="row">
-	<div class="col col-lg-8">
-    	  <img src="/images/header.jpg" />
+	<div class="col col-lg-10 col-lg-offset-1">
+    	  <img class="img-responsive" src="/images/header.jpg" />
 	</div>
       </div>
 
       <div class="row">
-	<div class="col col-lg-2">
-	  {% include sidebar.html %}
-	</div>
-	<div class="col col-lg-8">
-	  <div class="page-header">
-	    <h1>{{ page.title }}</h1>
-	    <small>{{ page.date | date: "%B %d %Y" }}</small>
+	<div class="col col-lg-offset-1">
+	  <div class="col col-lg-3">
+	    {% include sidebar.html %}
 	  </div>
-	  {{content}}
+	  <div class="col col-lg-8">
+	    <div class="page-header">
+	      <h1>{{ page.title }}</h1>
+	      <small>{{ page.date | date: "%B %d %Y" }}</small>
+	    </div>
+	    {{content}}
+	  </div>
 	</div>
       </div>
     </div>
