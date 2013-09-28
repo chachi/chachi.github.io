@@ -7,39 +7,11 @@ name: "Occasionally Things are Considered"
 description: "Jack's musings on the world"
 url: http://chachi.github.io
 
-allNavbarLinks: [home, CV, context, github, facebook, twitter, linkedin]
 navbarLinks:
-  home:
-    idName: ""
-    text: "Home"
-    path: "/"
-
-  CV:
-    idName: "CV"
-    text: "Resume/CV"
-    path: "/CV"
-
-  context:
-    idName: "context"
-    text: "Context"
-    path: "/context"
-
-  github:
-    idName: "github"
-    text: "@Github"
-    path: "https://www.github.com/chachi"
-
-  facebook:
-    idName: "facebook"
-    text: "@Facebook"
-    path: "https://www.facebook.com/jack.morrison1"
-
-  twitter:
-    idName: "twitter"
-    text: "@Twitter"
-    path: "https://twitter.com/jackmorrison"
-
-  linkedin:
-    idName: "linkedin"
-    text: "@LinkedIn"
-    path: "http://www.linkedin.com/in/morrisonjack/"
+  - ["" , "/" , "Home" ]
+  - [ "CV" , "/CV" , "Resume/CV"]
+  - [ "context" , "/context" , "Context"]
+  - ["github" , "https://www.github.com/chachi" , "@Github"]
+  - [ "facebook" , "https://www.facebook.com/jack.morrison1" , "@Facebook" ]
+  - [ "twitter" , "https://twitter.com/jackmorrison" , "@Twitter" ]
+  - [ "linkedin" , "http://www.linkedin.com/in/morrisonjack/" , "@LinkedIn" ]
