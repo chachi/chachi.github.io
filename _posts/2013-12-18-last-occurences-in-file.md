@@ -1,5 +1,7 @@
-Bash: Get the last occurrences of a phrase in files
-================================================
+---
+layout: post
+title: Bash: Get the last occurrences of a phrase in files
+---
 
 Yesterday I wanted to extract the last 2 reprojection errors from some
 log files and came across/created a nice Bash one-liner to do the job:
