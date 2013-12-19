@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bash: Get the last occurrences of a phrase in files
+title: Get the last occurrences of a phrase in files in Bash
 ---
 
 Yesterday I wanted to extract the last 2 reprojection errors from some
