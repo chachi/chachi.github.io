@@ -9,11 +9,14 @@ url: http://chachi.github.io
 markdown: kramdown
 
 navbarLinks:
-  - [ "CV" , "/CV" , "Resume/CV"]
-  - [ "about" , "/about" , "About"]
+  - [ "CV" , "/CV" , "Resume/CV", "fa-institution" ]
+  - [ "about" , "/about" , "About", "fa-info-circle" ]
 
 socialLinks:
-  - ["github" , "https://www.github.com/chachi" , "@Github"]
-  - [ "facebook" , "https://www.facebook.com/jack.morrison1" , "@Facebook" ]
-  - [ "twitter" , "https://twitter.com/jackmorrison" , "@Twitter" ]
-  - [ "linkedin" , "http://www.linkedin.com/in/morrisonjack/" , "@LinkedIn" ]
+  - [ "facebook" , "https://www.facebook.com/jack.morrison1" , "Facebook", "fa-facebook" ]
+  - [ "gplus" , "https://plus.google.com/117441278046314358685/posts/p/pub" , "Google+", "fa-google-plus" ]
+  - [ "instagram", "http://www.instagram.com/drrobotnikk/", "Instagram", "fa-instagram" ]
+  - [ "twitter" , "https://twitter.com/jackmorrison" , "Twitter", "fa-twitter" ]
+  - [ "linkedin" , "http://www.linkedin.com/in/morrisonjack/" , "LinkedIn", "fa-linkedin" ]
+  - [ "github" , "https://www.github.com/chachi" , "Github", "fa-github"]
+

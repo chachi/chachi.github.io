@@ -19,6 +19,7 @@
   {% endif %}
   <li class={{ class }} id="{{navLink[0]}}Nav">
     <a href="{{navLink[1]}}">
+      <i class="fa {{navLink[3]}}"></i>
       {{navLink[2]}}
   </a></li>
   {% endfor %}
@@ -28,6 +29,7 @@
   {% for navLink in site.socialLinks %}
   <li class="pageKey">
     <a href="{{navLink[1]}}">
+    <i class="fa {{navLink[3]}}"></i>
       {{navLink[2]}}
   </a></li>
   {% endfor %}
