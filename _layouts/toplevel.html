@@ -1,33 +1,29 @@
+---
+---
 <!DOCTYPE html>
 <html>
   <head>
     {% include header.html %}
-    <link rel="alternate"
-          type="application/rss+xml"
-          title="{{ page.title }}"
-          href="/feed.xml" />
   </head>
   <body>
     <div class="container">
       <div class="row">
 	<div class="col col-lg-10 col-lg-offset-1">
-          <img class="img-responsive" src="/images/header.jpg" />
-          <div class="page-header">
-            <h1>{{ page.title }}</h1>
-            <div class="navbar navbar-default" role="navigation">
-              <ul class="nav navbar-nav">
-                <li class="divider-vertical">
-                  {% for navLink in site.navbarLinks %}
-                <li class="pageKey" id="{{navLink[0]}}Nav">
-                  <a href="{{navLink[1]}}">
-		    {{navLink[2]}}
-                </a></li>
-                <li class="divider-vertical">
-                  {% endfor %}
-              </ul>
-            </div>
-          </div>
-          {{ content }}
+    	  <img class="img-responsive" src="/images/header.jpg" />
+	</div>
+      </div>
+
+      <div class="row">
+	<div class="col col-lg-offset-1">
+	  <div class="col col-lg-3">
+	    {% include sidebar.html %}
+	  </div>
+	  <div class="col col-lg-8">
+	    <div class="page-header">
+	      <h1>{{ page.title }}</h1>
+	    </div>
+	    {{content}}
+	  </div>
 	</div>
       </div>
     </div>

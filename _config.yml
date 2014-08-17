@@ -9,9 +9,10 @@ url: http://chachi.github.io
 markdown: kramdown
 
 navbarLinks:
-  - ["" , "/" , "Home" ]
   - [ "CV" , "/CV" , "Resume/CV"]
-  - [ "context" , "/context" , "Context"]
+  - [ "about" , "/about" , "About"]
+
+socialLinks:
   - ["github" , "https://www.github.com/chachi" , "@Github"]
   - [ "facebook" , "https://www.facebook.com/jack.morrison1" , "@Facebook" ]
   - [ "twitter" , "https://twitter.com/jackmorrison" , "@Twitter" ]

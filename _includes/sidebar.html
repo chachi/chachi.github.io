@@ -1,9 +1,44 @@
-<h2><a href="/">{{site.title}}</a></h2>
+<div style="border-radius: 10px; background-color: rgb(200,200,200); box-shadow: 5px 5px 5px #888888; padding: 0px 0px 5px 5px;">
+  <h2><b>
+      {% if page.url != "/index.html" %}
+      <a href="/">
+	{% endif %}
+	{{site.title}}
+	{% if page.url != "/index.html" %}
+      </a>
+      {% endif %}
+  </b></h2>
+</div>
 
+<ul class="nav nav-stacked nav-pills">
+  <li class="divider"/>
+  {% for navLink in site.navbarLinks %}
+  {% assign class="pageKey" %}
+  {% if page.url == navLink[1] %}
+  {% assign class="pageKey active" %}
+  {% endif %}
+  <li class={{ class }} id="{{navLink[0]}}Nav">
+    <a href="{{navLink[1]}}">
+      {{navLink[2]}}
+  </a></li>
+  {% endfor %}
+  <li class="divider"/>
+
+  <li class="nav-header">Social</li>
+  {% for navLink in site.socialLinks %}
+  <li class="pageKey">
+    <a href="{{navLink[1]}}">
+      {{navLink[2]}}
+  </a></li>
+  {% endfor %}
+</ul>
+
+{% if site.related_posts %}
 <h4>Recent Posts</h4>
 
 <ul>
-{% for post in site.related_posts limit:4 %}
+  {% for post in site.related_posts limit:4 %}
   <li><a href="{{post.url}}">{{ post.title }}</a></li>
-{% endfor %}
-<ul>
+  {% endfor %}
+  <ul>
+    {% endif %}
