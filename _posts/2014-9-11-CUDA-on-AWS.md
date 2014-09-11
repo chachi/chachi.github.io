@@ -3,6 +3,8 @@ layout: post
 title: Using CUDA on AWS
 ---
 
+***Update: Includes additional CUDA packages that had been missed in original version.***
+
 At my new position with [Replica Labs](http://replicalabs.com), we're setting up some cloud-based systems for some heavy GPU computations and are leveraging the GPU instances provided by Amazon Web Services. For the most part, these are just headless Ubuntu 14.04 instances. I thought I'd document getting my process of getting proprietary NVIDIA drivers and the CUDA SDK installed and running here.
 
 *Disclaimer: These are the steps that I took, but they may not work for you. Information provided without warranty.*
@@ -33,7 +35,7 @@ driver   : nvidia-331 - distro non-free recommended
   - Yes, install 32-bit compatibility libraries
   - Yes, run `nvidia-xconfig` to configure the X server.
 
-1. Install the CUDA package: `libcudart5.5`
+1. Install the CUDA packages: `libcudart5.5`, `nvidia-cuda-dev` and `nvidia-cuda-toolkit`.
 1. Reboot the server.
 1. Profit.
 
