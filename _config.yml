@@ -1,12 +1,13 @@
 safe: true
 lsi: false
-pygments: true
 paginate: 5
 title: "Occasionally Things are Considered"
 name: "Occasionally Things are Considered"
 description: "Jack's musings on the world"
 url: http://chachi.github.io
-markdown: kramdown
+markdown: redcarpet
+highlighter: pygments
+github: [Repository metadata]
 
 navbarLinks:
   - [ "CV" , "/CV" , "Resume/CV", "fa-institution" ]
