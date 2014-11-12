@@ -13,7 +13,7 @@ Following are the things I had to change to make my life work with i3wm. I will 
   ```
   bindsym XF86AudioRaiseVolume exec /usr/bin/pactl set-sink-volume @DEFAULT_SINK@ -- '+10%'
   bindsym XF86AudioLowerVolume exec /usr/bin/pactl set-sink-volume @DEFAULT_SINK@ -- '-10%'
-  bindsym XF86AudioMute exec /usr/bin/pactl set-sink-mute 0 toggle
+  bindsym XF86AudioMute exec /usr/bin/pactl set-sink-mute @DEFAULT_SINK@ toggle
   ```
 
   These lines use `pactl`, PulseAudio's command line interface, to raise, lower, and mute the system's audio.
