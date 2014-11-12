@@ -23,3 +23,4 @@ Resources:
 
 - http://i3wm.org/docs/refcard.html
 - http://ninjaducks.in/hacking/gnome-3-to-i-3/
+- https://stackoverflow.com/questions/23455761/set-mark-command-not-working-emacs-with-c-spc
