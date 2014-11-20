@@ -18,6 +18,7 @@ Following are the things I had to change to make my life work with i3wm. I will 
 
   These lines use `pactl`, PulseAudio's command line interface, to raise, lower, and mute the system's audio.
 
+- Install the amazing [rofi](https://github.com/DaveDavenport/rofi) as an application switcher and launcher. I bound it to `$mod+period` and unbound the default dmenu binding of `$mod+d`.
 
 Resources:
 
