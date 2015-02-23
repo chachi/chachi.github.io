@@ -32,3 +32,5 @@ user=root
 killasgroup=true
 stopasgroup=true
 ```
+
+Note: this post on controlling Django was a big help in figuring this out: https://coderwall.com/p/4tcw7w/setting-supervisor-to-really-stop-django-runserver
