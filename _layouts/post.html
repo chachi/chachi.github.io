@@ -6,6 +6,23 @@
     {% include header.html %}
   </head>
   <body>
+    <script>
+      window.fbAsyncInit = function() {
+      FB.init({
+      appId      : '1439902942978388',
+      xfbml      : true,
+      version    : 'v2.3'
+      });
+      };
+
+      (function(d, s, id){
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) {return;}
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
     <div class="container">
       <div class="row">
 	<div class="col col-lg-10 col-lg-offset-1">
@@ -24,6 +41,16 @@
 	      <small>{{ page.date | date: "%B %d %Y" }}</small>
 	    </div>
 	    {{content}}
+	    <div class="fb-like"
+	       data-share="true"
+	       data-width="450"
+	       data-show-faces="true">
+	    </div>
+	    <div class="fb-comments"
+		 data-href="{{site.url}}{{page.url}}"
+		 data-numposts="5"
+		 data-colorscheme="light">
+	    </div>
 	  </div>
 	</div>
       </div>
