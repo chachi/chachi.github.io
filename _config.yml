@@ -5,10 +5,12 @@ title: "Occasionally Things are Considered"
 name: "Occasionally Things are Considered"
 description: "Jack's musings on the world"
 url: http://jackmorrison.me
-markdown: redcarpet
-redcarpet:
-  extensions: ["autolink"]
-highlighter: pygments
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+highlighter: rouge
 github: [Repository metadata]
 
 navbarLinks:
