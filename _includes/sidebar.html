@@ -1,42 +1,48 @@
-<div style="padding: 5px 5px 5px 5px;" class="col col-sm-12">
-  {% if page.url != "/index.html" %}
-  <a href="/">
-    {% endif %}
-    <img class="img img-responsive"
-	 style="max-height:64px;  margin-left: 0px; margin-right: auto;"
-	 src="/favicon.png" />
-    <h2 class="text-left">
-      {{site.title}}
-    </h2>
+<div class="row">
+  <div style="padding: 5px 5px 5px 5px;" class="col col-sm-12 col-sm-offset-1">
     {% if page.url != "/index.html" %}
-  </a>
-  {% endif %}
+    <a href="/">
+      {% endif %}
+      <img class="img img-responsive"
+           style="max-height:64px;  margin-left: 0px; margin-right: auto;"
+           src="/favicon.png" />
+      <h2 class="text-left">
+        {{site.title}}
+      </h2>
+      {% if page.url != "/index.html" %}
+    </a>
+    {% endif %}
+  </div>
 </div>
 
-<ul class="nav nav-stacked nav-pills">
-  <li class="divider"/>
-  {% for navLink in site.navbarLinks %}
-  {% assign class="pageKey" %}
-  {% if page.url == navLink[1] %}
-  {% assign class="pageKey active" %}
-  {% endif %}
-  <li class={{ class }} id="{{navLink[0]}}Nav">
-    <a href="{{navLink[1]}}">
-      <i class="fa {{navLink[3]}}"></i>
-      {{navLink[2]}}
-  </a></li>
-  {% endfor %}
-  <li class="divider"/>
+<div class="row">
+  <div class="col col-sm-offset-1">
+    <ul class="nav nav-stacked nav-pills">
+      <li class="divider"/>
+      {% for navLink in site.navbarLinks %}
+      {% assign class="pageKey" %}
+      {% if page.url == navLink[1] %}
+      {% assign class="pageKey active" %}
+      {% endif %}
+      <li class={{ class }} id="{{navLink[0]}}Nav">
+        <a href="{{navLink[1]}}">
+          <i class="fa {{navLink[3]}}"></i>
+          {{navLink[2]}}
+      </a></li>
+      {% endfor %}
+      <li class="divider"/>
 
-  <li class="nav-header">Social</li>
-  {% for navLink in site.socialLinks %}
-  <li class="pageKey">
-    <a href="{{navLink[1]}}">
-    <i class="fa {{navLink[3]}}"></i>
-      {{navLink[2]}}
-  </a></li>
-  {% endfor %}
-</ul>
+      <li class="nav-header">Social</li>
+      {% for navLink in site.socialLinks %}
+      <li class="pageKey">
+        <a href="{{navLink[1]}}">
+          <i class="fa {{navLink[3]}}"></i>
+          {{navLink[2]}}
+      </a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
 
 {% if site.related_posts %}
 <h4>Recent Posts</h4>
