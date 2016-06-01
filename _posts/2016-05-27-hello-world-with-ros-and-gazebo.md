@@ -5,9 +5,11 @@ title: Hello World with ROS and Gazebo
 
 Over the last ROS has gained a large following and mindshare in the robotics community, both in academia and industry. Its flexibility, ease of use, and wide variety of packages make it great for getting up and running quickly. ROS also has easy integration with the Gazebo simulator making building smart robots even easier.
 
+<img class="img-responsive" src="/images/simple_create.gif" />
+
 ## First Steps with ROS and Gazebo
 
-Despite all my time working in robotics, I hadn't gotten started with ROS or Gazebo myself until recently. After reading through the excellent ROS documentation, though, I still wasn't totally certain how to do the following things:
+Despite all my time working in robotics, I hadn't gotten started with ROS or Gazebo myself until recently. After reading through the excellent ROS documentation, though, I still wasn't totally certain how to do the following things, as illustrated in the GIF above:
 
 1. Load an iRobot Create into a Gazebo world
 2. Make the Create drive in a circle with `rospy`
