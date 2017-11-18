@@ -13,3 +13,7 @@ banner {
     background: center;
     height:100px;
 }
+
+.navbar-toggle .icon-bar {
+    background-color: black;
+}
