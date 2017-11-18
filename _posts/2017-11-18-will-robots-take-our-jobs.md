@@ -7,13 +7,17 @@ I spoke at [Ignite Boulder 33](http://igniteboulder.com/ignite-boulder-33) in Se
 
 There's has been a lot of speculation about whether robots will take all our jobs in the next few years, so I thought I'd put my stake in the ground and make my position known. Spoiler: I don't think we'll see mass unemployment thanks to robots.
 
-<iframe width="600" height="450" src="https://www.youtube.com/embed/HdeW3V7nJjQ" frameborder="0" gesture="media" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-4by3">
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HdeW3V7nJjQ" gesture="media" allowfullscreen></iframe>
+</div>
 
 ## Robots In The News
 
 If you're interested in this debate, it's been in the news _a lot_ recently. Vox recently published, in my opinion, one of the better videos on the topic. 
 
-<iframe width="300" height="225" src="https://www.youtube.com/embed/TUmyygCMMGA" frameborder="0" gesture="media" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-4by3">
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TUmyygCMMGA" gesture="media" allowfullscreen></iframe>
+</div>
 
 
 The Wall Street Journal's [opinion pages](https://www.google.com/search?q=will+robots+take+our+jobs+site%3Awsj.com) have been the site of a new article every month or so for years now. Rodney Brooks, co-founder of iRobot and Rethink Robotics, has a series of articles on the [future of AI and robotics](http://rodneybrooks.com/forai-future-of-robotics-and-artificial-intelligence/) which discuss a bit the future of employment.
