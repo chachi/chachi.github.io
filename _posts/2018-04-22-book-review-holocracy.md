@@ -3,9 +3,9 @@ layout: post
 title: Book Review - Holocracy
 ---
 
-<img alt="Holocracy Cover" src="/images/holocracy.jpg" align="right"/>
-
 I've read a lot of 3rd-party perspectives on Holocracy over the past few years, including many about Zappos' transition to the radical corporate self-management system, but had yet to read the source material on it. I got around to ordering the book last week and found it a surprisingly quick read.
+
+<img alt="Holocracy Cover" src="/images/holocracy.jpg" align="right"/>
 
 The book itself is a bit like a book you might read introducing a new sport. It lays out the ground rules, the basic system structures, and some strategies for getting started in such a radically new system. The author Brian Robertson is very up-front that Holocracy was developed as a practical structure, not as the implementation of a grand theory of organization. This leads the book to focus much more on the practical than the abstract.
 
