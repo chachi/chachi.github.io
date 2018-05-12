@@ -5,6 +5,8 @@ title: Boulder Startup Week and #GiveFirst
 
 When I moved to Boulder, Colorado in 2014 I was immediately struck by the warmth of the tech community here. It’s not the biggest tech scene in the country, it doesn’t have the most exits or a dozen top tier Universities to brag about, but the coders, founders and community organizers in Boulder have built a welcoming community here unlike any other I’ve experienced. 
 
+![BSW Robotics Logo](/images/BSW_2018_Track_robotics.jpg)
+
 I attended my first Boulder Startup Week in 2015 and loved it. So much to learn, so many people volunteering their time to improve their community. It basically felt like Spring Break for Startups. The next year during BSW 2016, I kept thinking that a Robotics Track would be a great fit. The Robotics Community in Boulder was growing quickly with upstarts like Sphero, Canvas, and AMP. A newly revived Boulder is for Robots, thanks to Dan Grollman and Brent Rosato, was bringing people together every month. I loved Boulder, I loved Robots and I wanted to see the two become more closely associated. 
 
 So I add a Todoist item, due in 8 months to “Contact BSW Organizers about a Robotics Track”. A friendly intro that January to the BSW Organizing team and the Robotics Track was born. Taking part in the organization of BSW has been so inspiring - it’s a master class in running a volunteer-driven event and in decentralized decision making. The [team](http://boulderstartupweek.com/team) is just amazing and I feel so lucky to be able to do my part connecting roboticists from around the area.
