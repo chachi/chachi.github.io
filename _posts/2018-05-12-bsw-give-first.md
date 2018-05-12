@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Boulder Startup Week and #GiveFirst
+title: "Boulder Startup Week and #GiveFirst"
 ---
 
 When I moved to Boulder, Colorado in 2014 I was immediately struck by the warmth of the tech community here. It’s not the biggest tech scene in the country, it doesn’t have the most exits or a dozen top tier Universities to brag about, but the coders, founders and community organizers in Boulder have built a welcoming community here unlike any other I’ve experienced. 
